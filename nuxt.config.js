@@ -52,6 +52,9 @@ export default {
       cacheProvider: 'memory'
     }],
   ],
+  router: {
+    middleware: 'languageDetection'
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
