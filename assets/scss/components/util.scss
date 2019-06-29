@@ -1,0 +1,20 @@
+.util__flex {
+  display: flex;
+}
+
+.util__flex-col {
+  flex: 0 0 auto;
+}
+
+.util__flex-eq {
+  flex: 1;
+}
+
+.util__container {
+  box-sizing: border-box;
+  max-width: 75rem;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
