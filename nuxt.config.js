@@ -22,6 +22,7 @@ export default {
       }
     ]
   },
+
   /*
    ** Customize the progress-bar color
    */
@@ -33,7 +34,9 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    '~/plugins/components'
+  ],
   /*
    ** Nuxt.js modules
    */
@@ -43,7 +46,11 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    ['storyblok-nuxt', {
+      accessToken: 'qzCs5QGkhtC8gKrNpvuxVAtt',
+      cacheProvider: 'memory'
+    }],
   ],
   /*
    ** Axios module configuration
@@ -57,6 +64,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   }
 }

@@ -1,10 +1,10 @@
 <template>
   <div>
-    <top-header/>
+    <top-header />
     <main id="main" role="main">
-      <nuxt/>
+      <nuxt />
     </main>
-    <bottom-footer/>
+    <bottom-footer />
   </div>
 </template>
 
