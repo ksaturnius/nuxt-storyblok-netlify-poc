@@ -23,6 +23,8 @@ export default {
     ]
   },
 
+  buildDir: 'deputy-prod',
+
   /*
    ** Customize the progress-bar color
    */
